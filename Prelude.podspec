@@ -6,6 +6,6 @@ Pod::Spec.new do |spec|
   spec.author           = 'Point Free Co'
   spec.summary          = 'A collection of types and functions that enhance the Swift language.'
   spec.source           = { :git => 'https://github.com/eliotfowler/swift-prelude.git', :branch => 'master' }
-  spec.source_files     = 'Sources/*'
+  spec.source_files     = 'Sources/**/*.swift'
   spec.requires_arc     = true
 end
